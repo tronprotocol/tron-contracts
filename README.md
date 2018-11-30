@@ -9,16 +9,21 @@ Contracts include but not limited to implementations of standard-compliant token
 
 ## Usage
 
-Install tronbox:
+### Install tronbox:
+
 npm install -g tronbox
 
-Clone repo:
+### Clone repo:
+
 git clone https://github.com/tronprotocol/tron-contracts.git
 
-Install dependancies 
-npm install
+### Compile:
 
 tronbox compile 
+
+### Migrate:
+
+tronbox migrate
 
 
 
