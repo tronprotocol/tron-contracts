@@ -3,11 +3,25 @@ Solidity smart contracts for the TRON blockchain https://tron.network
 
 This repository contains a library of sample smart contracts for the TRON network.
 
+Configured with tronbox https://github.com/tronprotocol/tron-box
+
 Contracts include but not limited to implementations of standard-compliant tokens, library kits, and common utilities.
 
 ## Usage
 
-Please refer to our [Quick Start Guide](https://developers.tron.network/docs/getting-started-1) for testing on a privatenet, or use this [Smart Contract Guide](https://developers.tron.network/docs/deploying) for testing on the Shasta testnet.
+Install tronbox:
+npm install -g tronbox
+
+Clone repo:
+git clone https://github.com/tronprotocol/tron-contracts.git
+
+Install dependancies 
+npm install
+
+tronbox compile 
+
+
+
 
 ## Security
 
