@@ -3,7 +3,7 @@ Solidity smart contracts for the [TRON](https://tron.network) blockchain.
 
 This repository contains a library of sample smart contracts for the TRON network.
 
-Configured with [TronBox](https://github.com/tronprotocol/tron-box)
+Configured with [TronBox](https://github.com/tronprotocol/tron-box).
 
 Contracts include but not limited to implementations of standard-compliant tokens, library kits, and common utilities.
 
