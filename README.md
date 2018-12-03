@@ -19,7 +19,7 @@ Contracts include but not limited to implementations of standard-compliant token
 
 ### Import Private Key:
 
-Import a private key of an account into the "privateKey" field inside the index.js file. Make sure it has test TRX to deploy the contracts. You cab request some [here](https://www.trongrid.io/shasta/#request).
+Import a private key of an account into the "privateKey" field inside the index.js file. Make sure it has test TRX to deploy the contracts. You can request some [here](https://www.trongrid.io/shasta/#request).
 
 ### Compile:
 
