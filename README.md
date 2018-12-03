@@ -1,28 +1,33 @@
 # tron-contracts
-Solidity smart contracts for the TRON blockchain https://tron.network
+Solidity smart contracts for the [TRON](https://tron.network) blockchain.
 
 This repository contains a library of sample smart contracts for the TRON network.
 
-Configured with tronbox https://github.com/tronprotocol/tron-box
+Configured with [TronBox](https://github.com/tronprotocol/tron-box).
 
 Contracts include but not limited to implementations of standard-compliant tokens, library kits, and common utilities.
 
 ## Usage
 
-Install tronbox:
-npm install -g tronbox
+### Install tronbox:
 
-Clone repo:
-git clone https://github.com/tronprotocol/tron-contracts.git
+```npm install -g tronbox```
 
-Import Private Key:
-Import a private key of an account into the "privateKey" field inside the index.js file. Make sure it has test TRX to deploy the contracts.
+### Clone repo:
 
-Compile:
-tronbox compile 
+```git clone https://github.com/tronprotocol/tron-contracts.git```
 
-Migrate:
-tronbox migrate 
+### Import Private Key:
+
+Import a private key of an account into the "privateKey" field inside the index.js file. Make sure it has test TRX to deploy the contracts. You cab request some [here](https://www.trongrid.io/shasta/#request).
+
+### Compile:
+
+```tronbox compile```
+
+### Migrate:
+
+```tronbox migrate```
 
 ## Security
 
