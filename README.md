@@ -1,9 +1,9 @@
 # tron-contracts
-Solidity smart contracts for the TRON blockchain https://tron.network
+Solidity smart contracts for the [TRON](https://tron.network) blockchain.
 
 This repository contains a library of sample smart contracts for the TRON network.
 
-Configured with tronbox https://github.com/tronprotocol/tron-box
+Configured with [TronBox](https://github.com/tronprotocol/tron-box)
 
 Contracts include but not limited to implementations of standard-compliant tokens, library kits, and common utilities.
 
@@ -11,22 +11,19 @@ Contracts include but not limited to implementations of standard-compliant token
 
 ### Install tronbox:
 
-npm install -g tronbox
+```npm install -g tronbox```
 
 ### Clone repo:
 
-git clone https://github.com/tronprotocol/tron-contracts.git
+```git clone https://github.com/tronprotocol/tron-contracts.git```
 
 ### Compile:
 
-tronbox compile 
+```tronbox compile```
 
 ### Migrate:
 
-tronbox migrate
-
-
-
+```tronbox migrate```
 
 ## Security
 
