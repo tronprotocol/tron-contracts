@@ -17,7 +17,7 @@ Contracts include but not limited to implementations of standard-compliant token
 
 ```git clone https://github.com/tronprotocol/tron-contracts.git```
 
-### Import Private Key and Address:
+### Import Address and Private Key:
 
 Import an address and private key of an account into the "from" and "privateKey" fields inside the tronbox.js file. Make sure it has test TRX to deploy the contracts. You can request some [here](https://www.trongrid.io/shasta/#request).
 
