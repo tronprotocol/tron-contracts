@@ -15,13 +15,14 @@ npm install -g tronbox
 Clone repo:
 git clone https://github.com/tronprotocol/tron-contracts.git
 
-Install dependancies 
-npm install
+Import Private Key:
+Import a private key of an account into the "privateKey" field inside the index.js file. Make sure it has test TRX to deploy the contracts.
 
+Compile:
 tronbox compile 
 
-
-
+Migrate:
+tronbox migrate 
 
 ## Security
 
