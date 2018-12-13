@@ -3,11 +3,10 @@ module.exports = {
         development: {
             from: '',
             privateKey: '',
-            consume_user_resource_percent: 30,
-            fee_limit: 100000000,
-            fullNode: "https://api.trongrid.io:8090",
-            solidityNode: "https://api.trongrid.io:8091",
-            eventServer: "https://api.trongrid.io",
+            userFeePercentage: 30,
+            feeLimit: 1e9,
+            originEnergyLimit: 1e7,
+            fullHost: "https://api.shasta.trongrid.io",
             network_id: "*" // Match any network id
         },
         production: {}
