@@ -27,7 +27,7 @@ Import an address and private key of an account into the "from" and "privateKey"
 
 ### Migrate:
 
-```tronbox migrate```
+```tronbox migrate --reset```
 
 ## Security
 
