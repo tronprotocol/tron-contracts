@@ -6,9 +6,9 @@ services:
   - docker
 
 before_install:
-  - docker build -t tronwallet-contracts .
   - docker run -d -it -p 9090:9090 -e "showQueryString=true" -e "showBody=true" -e "formatJson=true" -e "allowTvmTransferTrc10=1" --name tron trontools/quickstart
   - sleep 120
   
 script:
+  - yarn install
   - yarn test
