@@ -1,6 +1,6 @@
 FROM circleci/node:9
 
-USER node
+USER root
 
 WORKDIR /usr/src/app
 
