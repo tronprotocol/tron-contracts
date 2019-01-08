@@ -9,7 +9,6 @@ COPY . /usr/src/app
 RUN ls -la /usr/src/app
 
 RUN yarn install
-RUN yarn migrate
 
 EXPOSE 9090
 
