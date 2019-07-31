@@ -1,4 +1,4 @@
-pragma solidity ^0.4.23;
+pragma solidity >=0.4.23 <0.6.0;
 
 import "./TRC20.sol";
 
@@ -17,7 +17,7 @@ contract TRC20Detailed is TRC20 {
     string private _symbol;
     uint8 private _decimals;
 
-    constructor (string name, string symbol, uint8 decimals) public {
+    constructor (string memory name, string memory symbol, uint8 decimals) public {
         _name = name;
         _symbol = symbol;
         _decimals = decimals;
@@ -26,14 +26,14 @@ contract TRC20Detailed is TRC20 {
     /**
      * @return the name of the token.
      */
-    function name() public view returns (string) {
+    function name() public view returns (string memory) {
         return _name;
     }
 
     /**
      * @return the symbol of the token.
      */
-    function symbol() public view returns (string) {
+    function symbol() public view returns (string memory) {
         return _symbol;
     }
 
